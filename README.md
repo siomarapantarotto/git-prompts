@@ -6,5 +6,5 @@ This repo was created from scratch with GIT and GITBASH. It is my lab to practic
 
 <!-- IMAGE... -->
 <p align='center'>
-  <a href="https://git-scm.com/docs/gittutorial"><img alt="" src="https://user-images.githubusercontent.com/5893219/134830139-a2921638-caf9-40f1-a1e1-b7354d278971.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://git-scm.com/docs/gittutorial"><img alt="" src="https://user-images.githubusercontent.com/5893219/134832432-5eaa7a49-9727-4485-baeb-cd7a0deff034.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
