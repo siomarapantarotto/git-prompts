@@ -1,7 +1,7 @@
 # Learn GIT from scratch via Git Bash
 
 <p align='center'>
-  </br></br><img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4479A1?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4479A1?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Git%20via%20Git%20Bash-Under%20Construction-4479A1?style=for-the-badge&logo=git&logoColor=white" />&nbsp;&nbsp;
 </p>
 
