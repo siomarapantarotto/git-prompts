@@ -1,4 +1,4 @@
-# GIT from scratch via Git Bash
+# Welcome to My GIT Lab and reminders collection!
 
 <p align='center'>
   <img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
@@ -15,7 +15,7 @@ This repo was created from scratch with GIT and GITBASH. It is my lab to practic
 </p>
 
 <!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
-<h2>Welcome to My GIT lab and reminders collection!</h2>
+<h2>About Git</h2>
 <p class="western" align="JUSTIFY"><span style="font-family: Verdana, sans-serif;"><span style="font-size: large;"><strong>About Git</strong></span></span>&nbsp;</p>
 <ul>
 <li>
@@ -48,3 +48,4 @@ This repo was created from scratch with GIT and GITBASH. It is my lab to practic
 </ul>
 </li>
 </ul>
+...
