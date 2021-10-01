@@ -1,12 +1,6 @@
 # Welcome to My GIT Lab and reminders collection!
 
-<p align='center'>
-  <img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Git%20via%20Git%20Bash-Under%20Construction-999999?style=for-the-badge&logo=git&logoColor=white" />&nbsp;&nbsp;
-</p>
-
 This repo was created from scratch with GIT and GITBASH. It is my lab to practice the instructions via command lines.
-
 
 <!-- IMAGE... -->
 <p align='center'>
@@ -48,3 +42,7 @@ This repo was created from scratch with GIT and GITBASH. It is my lab to practic
 </li>
 </ul>
 ...
+<p align='center'>
+  <img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Git%20via%20Git%20Bash-Under%20Construction-999999?style=for-the-badge&logo=git&logoColor=white" />&nbsp;&nbsp;
+</p>
