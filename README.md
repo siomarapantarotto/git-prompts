@@ -1,7 +1,6 @@
 # Welcome to My GIT Lab and reminders collection!
 
 This repo was created from scratch with GIT and GITBASH. It is my lab to practice the instructions via command lines.
-
 <!-- IMAGE... -->
 <p align='center'>
   <a href="https://git-scm.com/docs/gittutorial"><img alt="" src="https://user-images.githubusercontent.com/5893219/134832432-5eaa7a49-9727-4485-baeb-cd7a0deff034.png"></a>
