@@ -1,4 +1,4 @@
-# Learning GIT from scratch via Git Bash
+# GIT from scratch via Git Bash
 
 <p align='center'>
   <img src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
