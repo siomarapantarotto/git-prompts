@@ -7,7 +7,6 @@
 
 This repo was created from scratch with GIT and GITBASH. It is my lab to practice the instructions via command lines.
 
-### Check back later for GIT reminders because now it is UNDER CONSTRUCTION!
 
 <!-- IMAGE... -->
 <p align='center'>
@@ -16,7 +15,7 @@ This repo was created from scratch with GIT and GITBASH. It is my lab to practic
 
 <!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
 <h2>About Git</h2>
-<p class="western" align="JUSTIFY"><span style="font-family: Verdana, sans-serif;"><span style="font-size: large;"><strong>About Git</strong></span></span>&nbsp;</p>
+
 <ul>
 <li>
 <p class="western" align="JUSTIFY"><span style="color: #171717;"><span style="font-family: Verdana, sans-serif;"><span style="font-size: medium;">Git is a commonly used </span></span></span><span style="color: #171717;"><span style="font-family: Verdana, sans-serif;"><span style="font-size: medium;"><strong>decentralized source code repository</strong></span></span></span><span style="color: #171717;"><span style="font-family: Verdana, sans-serif;"><span style="font-size: medium;">.</span></span></span></p>
