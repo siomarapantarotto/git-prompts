@@ -30,109 +30,117 @@ This repo was created from scratch with GIT and GITBASH to work as a lab so I ca
 
 <h2>How Git Works</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git Guides</h2>
-<p>First paragraph.</p>
-<p>Second paragraph.</p>
+<p>https://github.com/git-guides/ </p>
 
 <h2>Installing Git</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Verify Installation</h2>
-<p>First paragraph.</p>
-<p>Second paragraph.</p>
+<p>$ git --version</p>
+  git version 2.33.0.windows.1
+
 
 <h2>Git Help</h2>
-<p>First paragraph.</p>
-<p>Second paragraph.</p>
+<p>$ git help</p>
+
 
 <h2>Configure Git</h2>
-<p>First paragraph.</p>
-<p>Second paragraph.</p>
+<p>
+$ git config --global user.name "Siomara Cintia Pantarotto"
+
+$ git config --global user.email "siomarapantarotto@gmail.com"
+
+$ git config --global color.ui auto
+
+$ git config -l
+</p>
+
 
 <h2>Initializing Git Repository</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git Add</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git Commit</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Amend Commit Messages</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h1>Git & GitHub</h1>
 
 <h2>Create a GitHub Repo</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>SSH Keys Setup</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git Push</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git Pull</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Branches</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Main and Master</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Pull Requests</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Merging and Pull Requests</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>The General Workflow</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Conflicts</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Merging Conflicts</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Rebase</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Rebase recap</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Git clients</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>GitPod</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 <h2>Section Title</h2>
 <p>First paragraph.</p>
-<p>Second paragraph.</p>
+
 
 
 </body>
