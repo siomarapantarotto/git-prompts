@@ -16,7 +16,17 @@
 This repo was created from scratch with GIT and GITBASH to work as a lab so I can practice the instructions via command lines.
 
 <h2>Git</h2>
-<p>First paragraph.</p>
+<p>
+  Git is a commonly used <b>decentralized source code repository</b>.
+  <b>Created by the Linux creator Linus Torvalds</b> for the management of the Linux kernel source code.
+  Whole services like GitHub and GitLab are based around it.
+  Other free-to-use file version control systems (<b>VCS</b>):
+  <b>CVS</b> (Concurrent Versions System) – First released
+  <b>SVN</b> (Apache Subversion) – Second released
+  <b>Git</b> – Third released
+  <b>Mercurial</b>
+  <b>Bazaar</b> etc
+</p>
 <p>Second paragraph.</p>
 
 <h2>How Git Works</h2>
