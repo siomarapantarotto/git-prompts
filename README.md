@@ -73,25 +73,67 @@
 
   <h2>Initializing Git Repository</h2>
   $ ls
+
   $ cd desktop
+
   $ ls
+
   $ mkdir git-prompts
+
   $ git init .
+
   $ ls -a
 
   <h2>Removing Git Repository</h2>
   $ ls -a
+  
   $ rm -rf .git
+  
   $ ls -a
+  
   $ git add
+  
   fatal: not a git repository (or any of the parent directories): .git
+  
   $ git init .
+  
   Initialized empty Git repository in D:/Users/Sioma/OneDrive/Área de Trabalho/git-memos/.git/
 
 
 
   <h2>Git Add</h2>
-  <p>Paragraph.</p>
+  $ git add
+
+Nothing specified, nothing added.
+
+$ ls -a
+
+$ touch index.html
+
+$ touch index.js
+
+$ touch main.css
+
+$ ls
+
+index.html  index.js  main.css
+
+$ git status
+
+On branch master
+
+No commits yet
+
+Untracked files:
+
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+        index.js
+        
+        main.css
+
 
 
   <h2>Git Commit</h2>
@@ -167,5 +209,8 @@
   <h2>Section Title</h2>
   <p>Paragraph.</p>
 
+
+
 </body>
+
 </html>
