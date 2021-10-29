@@ -251,34 +251,7 @@
       <p>$ git commit -m "bootstrap project"</p>
       <p>$ git status</p>
       <p>$ git log
-        commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
-        Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-          Date: Sat Sep 25 00:29:54 2021 -0300
-
-          bootstrap project
-      </p>
-      <p>$ git show 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
-        commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
-        Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-          Date: Sat Sep 25 00:29:54 2021 -0300
-
-          bootstrap project
-
-          diff --git a/index.html b/index.html
-          new file mode 100644
-          index 0000000..e69de29
-          diff --git a/index.js b/index.js
-          new file mode 100644
-          index 0000000..e69de29
-          diff --git a/main.css b/main.css
-          new file mode 100644
-          index 0000000..e69de29
-          diff --git a/test/test.js b/test/test.js
-          new file mode 100644
-          index 0000000..e69de29
-      </p>
-      <p>$ vi index.js
-
+       
         i for insert and type:
         console.log("Hello Git");
         escape :wq
