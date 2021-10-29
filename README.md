@@ -34,7 +34,7 @@
 
   <!-- What is Git in a nutshell -->
   <div class="container mt-3">
-    <a href="#nutshell" class="btn btn-primary" data-bs-toggle="collapse">What is Git in a nutshell</a>
+    <a href="" class="btn btn-primary" data-bs-toggle="collapse">What is Git in a nutshell</a>
     <div id="nutshell" class="collapse">
       <p>
       <ul>
