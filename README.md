@@ -250,17 +250,7 @@
       <p>$ git status</p>
       <p>$ git commit -m "bootstrap project"</p>
       <p>$ git status</p>
-      <p>$ git log
-       
-        i for insert and type:
-        console.log("Hello Git");
-        escape :wq
-      </p>
-      <p></p>
-      </p>
-    </div>
-  </div>
-
+    
   <!-- Amend commit messages -->
   <div class="container mt-3">
     <a href="#amendcommitmessages" class="btn btn-primary" data-bs-toggle="collapse">Amend commit messages</a>
