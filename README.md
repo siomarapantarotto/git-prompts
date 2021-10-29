@@ -470,8 +470,6 @@
         src="https://img.shields.io/badge/download-My PDF Resume-008080?style=social"></a>
   </p>
 
-  <hr>
-
 </body>
 
 </html>
