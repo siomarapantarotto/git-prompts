@@ -125,25 +125,22 @@ command lines.
 
 
 ## Verify installation
-<a href="#verifyinstallation" class="btn btn-primary" data-bs-toggle="collapse">Verify installation by checking Git
-  version</a>
-<div id="verifyinstallation" class="collapse">
   <p>
-  <p>$ git --version</p>
+  <p><mark>$ git --version</mark></p>
   git version 2.33.0.windows.1
   </p>
 
 
 ## Check Git help
-<p>$ git help</p>
+<p><mark>$ git help</mark></p>
 
 
 ## Configure Git
 <p>
-  <p>$ git config --global user.name "Siomara Cintia Pantarotto"</p>
-  <p>$ git config --global user.email "siomarapantarotto@gmail.com"</p>
-  <p>$ git config --global color.ui auto</p>
-  <p>$ git config -l</p>
+  <p><mark>$ git config --global user.name "Siomara Cintia Pantarotto"</mark></p>
+  <p><mark>$ git config --global user.email "siomarapantarotto@gmail.com"</mark></p>
+  <p><mark>$ git config --global color.ui auto</mark></p>
+  <p><mark>$ git config -l</mark></p>
   </p>
 
 
@@ -157,7 +154,7 @@ command lines.
   $ mkdir git-prompts<br />
   $ cd git-prompts<br />
   $ ls<br />
-  $ git init .<br />
+  <mark>$ git init .</mark><br />
   $ ls -a<br />
   </p>
 
@@ -165,7 +162,7 @@ command lines.
 ## Removing Git repository
 <p>
   $ ls -a<br />
-  $ rm -rf .git<br />
+  <mark>$ rm -rf .git</mark><br />
   $ ls -a<br />
   $ git add<br />
   fatal: not a git repository (or any of the parent directories): .git<br />
