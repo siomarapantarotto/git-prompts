@@ -1,3 +1,5 @@
+# Welcome to my GIT lab and reminders collection!
+
 <p align='center'>
   <img
     src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
@@ -9,8 +11,6 @@
   <a href="https://git-scm.com/docs/gittutorial"><img alt=""
       src="https://user-images.githubusercontent.com/5893219/134832432-5eaa7a49-9727-4485-baeb-cd7a0deff034.png"></a>
 </p>
-
-# Welcome to my GIT lab and reminders collection!
 
 ## Table of contents
 * [General info](#general-info)
@@ -46,7 +46,8 @@
 
 
 ## General info
-This repo was created from scratch with GIT and GITBASH to work as a lab so I can practice the instructions via
+This repo was created from scratch with GIT and GITBASH to work as a lab. 
+Even though its content may not make much sense to those who visit it, it is here that I cashe reminders to practice the instructions via
 command lines.
 
 
@@ -325,7 +326,7 @@ command lines.
 
 
 ## Thanks and how to contribute
-Thanks for viewing this APP! Contributions are more than welcome.
+Thanks for viewing this repo! Contributions are more than welcome.
 
 Feel free to contact me for more information.
 
