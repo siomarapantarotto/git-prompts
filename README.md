@@ -1,5 +1,3 @@
-# Welcome to my GIT lab and reminders collection!
-
 <p align='center'>
   <img
     src="https://img.shields.io/badge/GitHub-Git/Git%20Bash-4183C4?style=for-the-badge&logo=github&logoColor=white" />&nbsp;&nbsp;
@@ -11,6 +9,9 @@
   <a href="https://git-scm.com/docs/gittutorial"><img alt=""
       src="https://user-images.githubusercontent.com/5893219/134832432-5eaa7a49-9727-4485-baeb-cd7a0deff034.png"></a>
 </p>
+
+# Welcome to my GIT lab and reminders collection!
+
 
 ## Table of contents
 * [General info](#general-info)
