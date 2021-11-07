@@ -14,36 +14,38 @@
 
 
 ## Table of contents
-* [General info](#general-info)
-* [What is Git in a nutshell](#what-is-Git-in-a-nutshell)
-* [How Git works](#how-git-works)
-* [Git Tutorial and Guide](#git-tutorial-and-Guide)
-* [Installing Git](#installing-git)
-* [Verify installation](#verify-installation)
-* [Check Git help](#check-git-help)
-* [Configure Git](#configure-git)
-* [Initializing Git repository](#initializing-git-repository)
-* [Removing Git repository](#removing-git-repository)
-* [Git add](#git-add)
-* [Commits](#commits)
-* [Amend commit messages](#amend-commit-messages)
-* [Git and Github](#git-and-github)
-* [Create a GitHub repo](#create-a-github-repo)
-* [SSH Keys Setup](#ssh-keys-setup)
-* [Git Push](#git-push)
-* [Git Pull](#git-pull)
-* [Understanding Branches](#understanding-branches)
-* [Working with Branches](#working-with-branches)
-* [Main and Master are the same](#main-and-master-are-the-same)
-* [Pull Requests](#pull-requests)
-* [Merging and Pull Requests](#merging-and-pull-requests)
-* [The General Workflow](#the-general-workflow)
-* [Conflicts](#conflicts)
-* [Merging Conflicts](#merging-conflicts)
-* [Rebase](#rebase)
-* [Rebase recap](#rebase-recap)
-* [Git clients](#git-clients)
-* [Thanks and how to contribute](#thanks-and-how-to-contribute)
+- [Welcome to my GIT lab and reminders collection!](#welcome-to-my-git-lab-and-reminders-collection)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
+  - [How Git works](#how-git-works)
+  - [Git Tutorial and Guide](#git-tutorial-and-guide)
+  - [Installing Git](#installing-git)
+  - [Verify installation](#verify-installation)
+  - [Check Git help](#check-git-help)
+  - [Configure Git](#configure-git)
+  - [Initializing Git repository](#initializing-git-repository)
+  - [Removing Git repository](#removing-git-repository)
+  - [Git add](#git-add)
+  - [Commits](#commits)
+  - [Amend commit messages](#amend-commit-messages)
+  - [Git and Github](#git-and-github)
+  - [Create a GitHub repo](#create-a-github-repo)
+  - [SSH Keys Setup](#ssh-keys-setup)
+  - [Git Push](#git-push)
+  - [Git Pull](#git-pull)
+  - [Understanding Branches](#understanding-branches)
+  - [Working with Branches](#working-with-branches)
+  - [Main and Master are the same](#main-and-master-are-the-same)
+  - [Pull Requests](#pull-requests)
+  - [Merging and Pull Requests](#merging-and-pull-requests)
+  - [The General Workflow](#the-general-workflow)
+  - [Conflicts](#conflicts)
+  - [Merging Conflicts](#merging-conflicts)
+  - [Rebase](#rebase)
+  - [Rebase recap](#rebase-recap)
+  - [Git clients](#git-clients)
+  - [Thanks and how to contribute](#thanks-and-how-to-contribute)
 
 
 ## General info
@@ -256,7 +258,100 @@ command lines.
 
 
 ## Amend commit messages
-<p>TODO</p>
+<p>
+User@HOST MINGW64 /desktop/git-memos (master)
+$ ls
+index.html  index.js  main.css  test/
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ vi main.css
+
+body {
+}
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+main.css [unix] (09:21 25/09/2021)                                                     2,1 All
+:wq
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   main.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git add .
+warning: LF will be replaced by CRLF in main.css.
+The file will have its original line endings in your working directory
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git commit -m "gfhjdgsjdfgsjgfjgdjgdghgsg"
+[master 7b71d8d] gfhjdgsjdfgsjgfjgdjgdghgsg
+ 1 file changed, 2 insertions(+)
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git log
+commit 7b71d8dcd4a73c07283297fd2f22a233fd3afc2b (HEAD -> master)
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 10:20:49 2021 -0300
+
+    gfhjdgsjdfgsjgfjgdjgdghgsg
+
+commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 00:49:16 2021 -0300
+
+    added console.log
+
+commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 00:29:54 2021 -0300
+
+    bootstrap project
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git commit --amend -m "added body{} in main.css"
+[master 7e2596f] added body{} in main.css
+ Date: Sat Sep 25 10:20:49 2021 -0300
+ 1 file changed, 2 insertions(+)
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$ git log
+commit 7e2596f32bd99bb0c56f85d2ba1cbcc67131a45b (HEAD -> master)
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 10:20:49 2021 -0300
+
+    added body{} in main.css
+
+commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 00:49:16 2021 -0300
+
+    added console.log
+
+commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 00:29:54 2021 -0300
+
+    bootstrap project
+
+User@HOST MINGW64 /desktop/git-memos (master)
+$
+
+</p>
 
 
 ## Git and Github
@@ -264,7 +359,22 @@ command lines.
 
 
 ## Create a GitHub repo
-<p>TODO</p>
+<p>
+<h2>…or create a new repository on the command line</h2>
+echo "# git-prompts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/siomarapantarotto/git-prompts.git
+git push -u origin main
+<h2>…or push an existing repository from the command line</h2>
+git remote add origin https://github.com/siomarapantarotto/git-prompts.git
+git branch -M main
+git push -u origin main
+<h2>…or import code from another repository</h2>
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+</p>
 
 
 ## SSH Keys Setup
@@ -296,7 +406,68 @@ command lines.
 
 
 ## Merging and Pull Requests
-<p>TODO</p>
+<p>
+User@HOST ~ /desktop/git-prompts (main)
+$ ls
+README.md  index.html  index.js  main.css  main.go  test/
+
+User@HOST ~ /desktop/git-prompts (main)
+$ git log --oneline
+e9c8282 (HEAD -> main, origin/main) Update README.md
+f12e7b2 Update README.md
+27fdd14 Update README.md
+69993f9 added package main
+c62e7b2 Create README.md
+3982a93 added empty main function
+35376fe added console.log()
+742015e added body{}
+0591c35 fictitious bootstrap project
+a3e89fa added console.log()
+856c93c initial commit after clone issue during push to GitHub
+
+User@HOST ~ /desktop/git-prompts (main)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.34 KiB | 0 bytes/s, done.
+From https://github.com/siomarapantarotto/git-prompts
+   e9c8282..4072369  main       -> origin/main
+Updating e9c8282..4072369
+Fast-forward
+ README.md | 4 ++++
+ utils.js  | 1 +
+ 2 files changed, 5 insertions(+)
+ create mode 100644 utils.js
+
+User@HOST ~ /desktop/git-prompts (main)
+$ git log --oneline
+4072369 (HEAD -> main, origin/main) Merge pull request #1 from siomarapantarotto/feature-a
+c92dd30 Update README.md
+e9c8282 Update README.md
+f12e7b2 Update README.md
+27fdd14 Update README.md
+5351fe1 (origin/feature-a, feature-a) utils.js with TODO
+69993f9 added package main
+c62e7b2 Create README.md
+3982a93 added empty main function
+35376fe added console.log()
+742015e added body{}
+0591c35 fictitious bootstrap project
+a3e89fa added console.log()
+856c93c initial commit after clone issue during push to GitHub
+
+User@HOST ~ /desktop/git-prompts (main)
+$ git branch -d feature-a
+Deleted branch feature-a (was 5351fe1).
+
+User@HOST ~ /desktop/git-prompts (main)
+$ git branch -a
+* main
+  remotes/origin/feature-a
+  remotes/origin/main
+</p>
 
 
 ## The General Workflow
