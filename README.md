@@ -361,17 +361,17 @@ $
 ## Create a GitHub repo
 <p>
 <h2>…or create a new repository on the command line</h2>
-echo "# git-prompts" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/siomarapantarotto/git-prompts.git
-git push -u origin main
+echo "# git-prompts" >> README.md<br/>
+git init<br/>
+git add README.md<br/>
+git commit -m "first commit"<br/>
+git branch -M main<br/>
+git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
+git push -u origin main<br/>
 <h2>…or push an existing repository from the command line</h2>
-git remote add origin https://github.com/siomarapantarotto/git-prompts.git
-git branch -M main
-git push -u origin main
+git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
+git branch -M main<br/>
+git push -u origin main<br/>
 <h2>…or import code from another repository</h2>
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 </p>
