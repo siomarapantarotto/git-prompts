@@ -14,8 +14,6 @@
 
 ## Table of contents
 
-- [Welcome to my GIT reminders collection!](#welcome-to-my-git-reminders-collection)
-  - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
   - [How Git works](#how-git-works)
