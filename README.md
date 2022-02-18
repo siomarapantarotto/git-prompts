@@ -12,8 +12,8 @@
 
 # Welcome to my GIT reminders collection!
 
-
 ## Table of contents
+
   - [General info](#general-info)
   - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
   - [How Git works](#how-git-works)
@@ -45,13 +45,13 @@
   - [Git clients](#git-clients)
   - [Thanks and how to contribute](#thanks-and-how-to-contribute)
 
-
 ## General info
+
 This repo was created from scratch with GIT and GITBASH. Eventhough its content may not make much sense
 to those who visit it, it is here that I cashe reminders when I need to use Git via command lines.
 
-
 ## What is Git in a nutshell
+
 <p>
 <ul>
   <li>Git is a commonly used <b>decentralized source code repository</b>.</li>
@@ -68,8 +68,8 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
 </ul>
 </p>
 
-
 ## How Git works
+
 <p>
 <ul>
   <li>Git <b>handles content in snapshots, one for each commit</b>, and knows how to <b>apply or roll back the
@@ -90,8 +90,8 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
 </ul>
 </p>
 
-
 ## Git Tutorial and Guide
+
 <p>
   <a href="https://git-scm.com/docs/gittutorial"><img alt="">Tutorial</a>
   (https://git-scm.com/docs/gittutorial)
@@ -101,8 +101,8 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   (https://github.com/git-guides/)
 </p>
 
-
 ## Installing Git
+
 <p>
   <ul>
     <li>Git Installation for Mac and Windows users.</li>
@@ -122,19 +122,19 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   </ul>
   </p>
 
-
 ## Verify installation
+
   <p>
   <mark>$ git --version</mark>
   git version 2.33.0.windows.1
   </p>
 
-
 ## Check Git help
+
 <p><mark>$ git help</mark></p>
 
-
 ## Configure Git
+
 <p>
   <mark>$ git config --global user.name "Siomara Cintia Pantarotto"</mark><br />
   <mark>$ git config --global user.email "siomarapantarotto@gmail.com"</mark><br />
@@ -142,12 +142,12 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   <mark>$ git config -l</mark><br />
 </p>
 
-
 ## Initializing Git repository
+
 <p>
   <p>Initializing with <b>git init .</b> is just for brand new projects, not existing ones.</p>
   <p>The <b>dot (.)</b> stands for the current directory.</p>
-  $ ls <br />
+  $ ls
   $ cd desktop<br />
   $ ls<br />
   $ mkdir git-prompts<br />
@@ -157,8 +157,8 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   $ ls -a<br />
   </p>
 
-
 ## Removing Git repository
+
 <p>
   $ ls -a<br />
   <mark>$ rm -rf .git</mark><br />
@@ -169,8 +169,8 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   Initialized empty Git repository in D:/Users/Sioma/OneDrive/Área de Trabalho/git-memos/.git/
 </p>
 
-
 ## Git add
+
 <p>
   $ git add
   Nothing specified, nothing added.
@@ -198,20 +198,20 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
     <br />main.css
 </p>
 
-
 ## Commits
+
 <p>
   A commit is basically a safe point.
 <p>
-  $ git status
-  On branch master
-  No commits yet
-  Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-    new file: ../index.html
-    new file: ../index.js
-    new file: ../main.css
-    new file: test.js
+  <br />$ git status
+  <br />On branch master
+  <br />No commits yet
+  <br />Changes to be committed:
+  <br />(use "git rm --cached <file>..." to unstage)
+  <br />  new file: ../index.html
+  <br />  new file: ../index.js
+  <br />  new file: ../main.css
+  <br />  new file: test.js
 </p>
 <p>$ cd ..</p>
 <p>$ git status</p>
@@ -223,8 +223,10 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
     Date: Sat Sep 25 00:29:54 2021 -0300
 
     bootstrap project
+
 </p>
-<p>$ git show 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+<p>
+$ git show 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
   commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
   Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
     Date: Sat Sep 25 00:29:54 2021 -0300
@@ -243,22 +245,24 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
     diff --git a/test/test.js b/test/test.js
     new file mode 100644
     index 0000000..e69de29
+
 </p>
 <p>$ vi index.js
 
-  i for insert and type:
-  console.log("Hello Git");
-  escape :wq
+i for insert and type:
+console.log("Hello Git");
+escape :wq
+
 </p>
 <p></p>
 </p>
 
-
 ## Amend commit messages
+
 <p>
 User@HOST MINGW64 /desktop/git-memos (master)
-$ ls
-index.html  index.js  main.css  test/
+<br />$ ls
+<br />index.html  index.js  main.css  test/
 
 User@HOST MINGW64 /desktop/git-memos (master)
 $ vi main.css
@@ -276,16 +280,16 @@ body {
 ~
 ~
 ~
-main.css [unix] (09:21 25/09/2021)                                                     2,1 All
+main.css [unix] (09:21 25/09/2021) 2,1 All
 :wq
 
 User@HOST MINGW64 /desktop/git-memos (master)
 $ git status
 On branch master
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   main.css
+(use "git add <file>..." to update what will be committed)
+(use "git restore <file>..." to discard changes in working directory)
+modified: main.css
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -297,51 +301,51 @@ The file will have its original line endings in your working directory
 User@HOST MINGW64 /desktop/git-memos (master)
 $ git commit -m "gfhjdgsjdfgsjgfjgdjgdghgsg"
 [master 7b71d8d] gfhjdgsjdfgsjgfjgdjgdghgsg
- 1 file changed, 2 insertions(+)
+1 file changed, 2 insertions(+)
 
 User@HOST MINGW64 /desktop/git-memos (master)
 $ git log
 commit 7b71d8dcd4a73c07283297fd2f22a233fd3afc2b (HEAD -> master)
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 10:20:49 2021 -0300
+Date: Sat Sep 25 10:20:49 2021 -0300
 
     gfhjdgsjdfgsjgfjgdjgdghgsg
 
 commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 00:49:16 2021 -0300
+Date: Sat Sep 25 00:49:16 2021 -0300
 
     added console.log
 
 commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 00:29:54 2021 -0300
+Date: Sat Sep 25 00:29:54 2021 -0300
 
     bootstrap project
 
 User@HOST MINGW64 /desktop/git-memos (master)
 $ git commit --amend -m "added body{} in main.css"
 [master 7e2596f] added body{} in main.css
- Date: Sat Sep 25 10:20:49 2021 -0300
- 1 file changed, 2 insertions(+)
+Date: Sat Sep 25 10:20:49 2021 -0300
+1 file changed, 2 insertions(+)
 
 User@HOST MINGW64 /desktop/git-memos (master)
 $ git log
 commit 7e2596f32bd99bb0c56f85d2ba1cbcc67131a45b (HEAD -> master)
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 10:20:49 2021 -0300
+Date: Sat Sep 25 10:20:49 2021 -0300
 
     added body{} in main.css
 
 commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 00:49:16 2021 -0300
+Date: Sat Sep 25 00:49:16 2021 -0300
 
     added console.log
 
 commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
 Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date:   Sat Sep 25 00:29:54 2021 -0300
+Date: Sat Sep 25 00:29:54 2021 -0300
 
     bootstrap project
 
@@ -350,12 +354,12 @@ $
 
 </p>
 
-
 ## Git and Github
+
 <p>TODO</p>
 
-
 ## Create a GitHub repo
+
 <p>
 <h2>…or create a new repository on the command line</h2>
 echo "# git-prompts" >> README.md<br/>
@@ -365,78 +369,80 @@ git commit -m "first commit"<br/>
 git branch -M main<br/>
 git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
 git push -u origin main<br/>
+
 <h2>…or push an existing repository from the command line</h2>
 git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
 git branch -M main<br/>
 git push -u origin main<br/>
+
 <h2>…or import code from another repository</h2>
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 </p>
 
-
 ## SSH Keys Setup
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Git Push
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Git Pull
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Understanding Branches
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Working with Branches
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Main and Master are the same
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Pull Requests
+
 <p>TODO</p>
 
-
 ## Merging and Pull Requests
+
 <p>
-User@HOST ~ /desktop/git-prompts (main)
-$ ls
-README.md  index.html  index.js  main.css  main.go  test/
+<br />User@HOST ~ /desktop/git-prompts (main)
+<br />$ ls
+<br />README.md  index.html  index.js  main.css  main.go  test/
 
-User@HOST ~ /desktop/git-prompts (main)
-$ git log --oneline
-e9c8282 (HEAD -> main, origin/main) Update README.md
-f12e7b2 Update README.md
-27fdd14 Update README.md
-69993f9 added package main
-c62e7b2 Create README.md
-3982a93 added empty main function
-35376fe added console.log()
-742015e added body{}
-0591c35 fictitious bootstrap project
-a3e89fa added console.log()
-856c93c initial commit after clone issue during push to GitHub
+<br />User@HOST ~ /desktop/git-prompts (main)
+<br />$ git log --oneline
+<br />e9c8282 (HEAD -> main, origin/main) Update README.md
+<br />f12e7b2 Update README.md
+<br />27fdd14 Update README.md
+<br />69993f9 added package main
+<br />c62e7b2 Create README.md
+<br />3982a93 added empty main function
+<br />35376fe added console.log()
+<br />742015e added body{}
+<br />0591c35 fictitious bootstrap project
+<br />a3e89fa added console.log()
+<br />856c93c initial commit after clone issue during push to GitHub
 
-User@HOST ~ /desktop/git-prompts (main)
-$ git pull
-remote: Enumerating objects: 9, done.
-remote: Counting objects: 100% (9/9), done.
-remote: Compressing objects: 100% (5/5), done.
+<br />User@HOST ~ /desktop/git-prompts (main)
+<br />$ git pull
+<br />remote: Enumerating objects: 9, done.
+<br />remote: Counting objects: 100% (9/9), done.
+<br />remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (5/5), 1.34 KiB | 0 bytes/s, done.
 From https://github.com/siomarapantarotto/git-prompts
-   e9c8282..4072369  main       -> origin/main
+e9c8282..4072369 main -> origin/main
 Updating e9c8282..4072369
 Fast-forward
- README.md | 4 ++++
- utils.js  | 1 +
- 2 files changed, 5 insertions(+)
- create mode 100644 utils.js
+README.md | 4 ++++
+utils.js | 1 +
+2 files changed, 5 insertions(+)
+create mode 100644 utils.js
 
 User@HOST ~ /desktop/git-prompts (main)
 $ git log --oneline
@@ -461,37 +467,38 @@ Deleted branch feature-a (was 5351fe1).
 
 User@HOST ~ /desktop/git-prompts (main)
 $ git branch -a
-* main
-  remotes/origin/feature-a
-  remotes/origin/main
+
+- main
+remotes/origin/feature-a
+remotes/origin/main
 </p>
 
-
 ## The General Workflow
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Conflicts
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Merging Conflicts
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Rebase
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Rebase recap
-<p>TODO</p>
 
+<p>TODO</p>
 
 ## Git clients
+
 <p>TODO</p>
 
-
 ## Thanks and how to contribute
+
 Thanks for viewing this repo! Contributions are more than welcome.
 
 Feel free to contact me for more information.
