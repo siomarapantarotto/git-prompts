@@ -10,12 +10,10 @@
       src="https://user-images.githubusercontent.com/5893219/134832432-5eaa7a49-9727-4485-baeb-cd7a0deff034.png"></a>
 </p>
 
-# Welcome to my GIT lab and reminders collection!
+# Welcome to my GIT reminders collection!
 
 
 ## Table of contents
-- [Welcome to my GIT lab and reminders collection!](#welcome-to-my-git-lab-and-reminders-collection)
-  - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
   - [How Git works](#how-git-works)
@@ -49,9 +47,8 @@
 
 
 ## General info
-This repo was created from scratch with GIT and GITBASH to work as a lab. 
-Even though its content may not make much sense to those who visit it, it is here that I cashe reminders to practice the instructions via
-command lines.
+This repo was created from scratch with GIT and GITBASH. Eventhough its content may not make much sense
+to those who visit it, it is here that I cashe reminders when I need to use Git via command lines.
 
 
 ## What is Git in a nutshell
@@ -128,7 +125,7 @@ command lines.
 
 ## Verify installation
   <p>
-  <p><mark>$ git --version</mark></p>
+  <mark>$ git --version</mark>
   git version 2.33.0.windows.1
   </p>
 
@@ -139,18 +136,18 @@ command lines.
 
 ## Configure Git
 <p>
-  <p><mark>$ git config --global user.name "Siomara Cintia Pantarotto"</mark></p>
-  <p><mark>$ git config --global user.email "siomarapantarotto@gmail.com"</mark></p>
-  <p><mark>$ git config --global color.ui auto</mark></p>
-  <p><mark>$ git config -l</mark></p>
-  </p>
+  <mark>$ git config --global user.name "Siomara Cintia Pantarotto"</mark><br />
+  <mark>$ git config --global user.email "siomarapantarotto@gmail.com"</mark><br />
+  <mark>$ git config --global color.ui auto</mark><br />
+  <mark>$ git config -l</mark><br />
+</p>
 
 
 ## Initializing Git repository
 <p>
   <p>Initializing with <b>git init .</b> is just for brand new projects, not existing ones.</p>
   <p>The <b>dot (.)</b> stands for the current directory.</p>
-  $ ls<br />
+  $ ls <br />
   $ cd desktop<br />
   $ ls<br />
   $ mkdir git-prompts<br />
