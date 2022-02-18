@@ -264,93 +264,89 @@ User@HOST MINGW64 /desktop/git-memos (master)
 <br />$ ls
 <br />index.html  index.js  main.css  test/
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ vi main.css
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ vi main.css
 
-body {
-}
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-main.css [unix] (09:21 25/09/2021) 2,1 All
-:wq
+<br/>body {
+<br/>}
+<br/>~
+<br/>~
+<br/>~
+<br/>~
+<br/>~
+<br/>~
+<br/>~
+<br/>main.css [unix] (09:21 25/09/2021) 2,1 All
+<br/>:wq
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git status
-On branch master
-Changes not staged for commit:
-(use "git add <file>..." to update what will be committed)
-(use "git restore <file>..." to discard changes in working directory)
-modified: main.css
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git status
+<br/>On branch master
+<br/>Changes not staged for commit:
+<br/>(use "git add <file>..." to update what will be committed)
+<br/>(use "git restore <file>..." to discard changes in working directory)
+<br/>modified: main.css
 
-no changes added to commit (use "git add" and/or "git commit -a")
+<br/>no changes added to commit (use "git add" and/or "git commit -a")
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git add .
-warning: LF will be replaced by CRLF in main.css.
-The file will have its original line endings in your working directory
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git add .
+<br/>warning: LF will be replaced by CRLF in main.css.
+<br/>The file will have its original line endings in your working directory
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git commit -m "gfhjdgsjdfgsjgfjgdjgdghgsg"
-[master 7b71d8d] gfhjdgsjdfgsjgfjgdjgdghgsg
-1 file changed, 2 insertions(+)
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git commit -m "gfhjdgsjdfgsjgfjgdjgdghgsg"
+<br/>[master 7b71d8d] gfhjdgsjdfgsjgfjgdjgdghgsg
+<br/>1 file changed, 2 insertions(+)
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git log
-commit 7b71d8dcd4a73c07283297fd2f22a233fd3afc2b (HEAD -> master)
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 10:20:49 2021 -0300
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git log
+<br/>commit 7b71d8dcd4a73c07283297fd2f22a233fd3afc2b (HEAD -> master)
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 10:20:49 2021 -0300
 
-    gfhjdgsjdfgsjgfjgdjgdghgsg
+<br/>    gfhjdgsjdfgsjgfjgdjgdghgsg
 
-commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 00:49:16 2021 -0300
+<br/>commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 00:49:16 2021 -0300
 
-    added console.log
+<br/>    added console.log
 
-commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 00:29:54 2021 -0300
+<br/>commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 00:29:54 2021 -0300
 
-    bootstrap project
+<br/>    bootstrap project
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git commit --amend -m "added body{} in main.css"
-[master 7e2596f] added body{} in main.css
-Date: Sat Sep 25 10:20:49 2021 -0300
-1 file changed, 2 insertions(+)
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git commit --amend -m "added body{} in main.css"
+<br/>[master 7e2596f] added body{} in main.css
+<br/>Date: Sat Sep 25 10:20:49 2021 -0300
+<br/>1 file changed, 2 insertions(+)
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$ git log
-commit 7e2596f32bd99bb0c56f85d2ba1cbcc67131a45b (HEAD -> master)
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 10:20:49 2021 -0300
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$ git log
+<br/>commit 7e2596f32bd99bb0c56f85d2ba1cbcc67131a45b (HEAD -> master)
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 10:20:49 2021 -0300
 
-    added body{} in main.css
+<br/>    added body{} in main.css
 
-commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 00:49:16 2021 -0300
+<br/>commit 573500237a9e9e4c857bcd7f48d99b0cab0d22dc
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 00:49:16 2021 -0300
 
-    added console.log
+<br/>    added console.log
 
-commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
-Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-Date: Sat Sep 25 00:29:54 2021 -0300
+<br/>commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+<br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>Date: Sat Sep 25 00:29:54 2021 -0300
 
-    bootstrap project
+<br/>    bootstrap project
 
-User@HOST MINGW64 /desktop/git-memos (master)
-$
+<br/>User@HOST MINGW64 /desktop/git-memos (master)
+<br/>$
 
 </p>
 
