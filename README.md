@@ -14,6 +14,8 @@
 
 ## Table of contents
 
+- [Welcome to my GIT reminders collection!](#welcome-to-my-git-reminders-collection)
+  - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
   - [How Git works](#how-git-works)
@@ -218,43 +220,41 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
 <p>$ git commit -m "bootstrap project"</p>
 <p>$ git status</p>
 <p>$ git log
-  commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
-  Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-    Date: Sat Sep 25 00:29:54 2021 -0300
+<br/>  commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
+<br/>  Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>    Date: Sat Sep 25 00:29:54 2021 -0300
 
-    bootstrap project
+<br/>    bootstrap project
 
 </p>
 <p>
-$ git show 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
-  commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
-  Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
-    Date: Sat Sep 25 00:29:54 2021 -0300
+<br/>$ git show 178c5e3ae1d735eeee5469bfebd977f3eb8006f2
+<br/>  commit 178c5e3ae1d735eeee5469bfebd977f3eb8006f2 (HEAD -> master)
+<br/>  Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+<br/>    Date: Sat Sep 25 00:29:54 2021 -0300
 
-    bootstrap project
+<br/>    bootstrap project
 
-    diff --git a/index.html b/index.html
-    new file mode 100644
-    index 0000000..e69de29
-    diff --git a/index.js b/index.js
-    new file mode 100644
-    index 0000000..e69de29
-    diff --git a/main.css b/main.css
-    new file mode 100644
-    index 0000000..e69de29
-    diff --git a/test/test.js b/test/test.js
-    new file mode 100644
-    index 0000000..e69de29
+<br/>    diff --git a/index.html b/index.html
+<br/>    new file mode 100644
+<br/>    index 0000000..e69de29
+<br/>    diff --git a/index.js b/index.js
+<br/>    new file mode 100644
+<br/>    index 0000000..e69de29
+<br/>    diff --git a/main.css b/main.css
+<br/>    new file mode 100644
+<br/>    index 0000000..e69de29
+<br/>    diff --git a/test/test.js b/test/test.js
+<br/>    new file mode 100644
+<br/>    index 0000000..e69de29
 
 </p>
-<p>$ vi index.js
+<p>
+$ vi index.js
 
 i for insert and type:
-console.log("Hello Git");
-escape :wq
-
-</p>
-<p></p>
+<br/>console.log("Hello Git");
+<br/>escape :wq
 </p>
 
 ## Amend commit messages
@@ -362,21 +362,21 @@ $
 
 <p>
 <h2>…or create a new repository on the command line</h2>
-echo "# git-prompts" >> README.md<br/>
-git init<br/>
-git add README.md<br/>
-git commit -m "first commit"<br/>
-git branch -M main<br/>
-git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
-git push -u origin main<br/>
+<br/>echo "# git-prompts" >> README.md
+<br/>git init
+<br/>git add README.md
+<br/>git commit -m "first commit"
+<br/>git branch -M main
+<br/>git remote add origin https://github.com/siomarapantarotto/git-prompts.git
+<br/>git push -u origin main
 
 <h2>…or push an existing repository from the command line</h2>
-git remote add origin https://github.com/siomarapantarotto/git-prompts.git<br/>
-git branch -M main<br/>
-git push -u origin main<br/>
+<br/>git remote add origin https://github.com/siomarapantarotto/git-prompts.git
+<br/>git branch -M main
+<br/>git push -u origin main
 
 <h2>…or import code from another repository</h2>
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+<br/>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 </p>
 
 ## SSH Keys Setup
@@ -433,44 +433,44 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 <br />remote: Enumerating objects: 9, done.
 <br />remote: Counting objects: 100% (9/9), done.
 <br />remote: Compressing objects: 100% (5/5), done.
-remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (5/5), 1.34 KiB | 0 bytes/s, done.
-From https://github.com/siomarapantarotto/git-prompts
-e9c8282..4072369 main -> origin/main
-Updating e9c8282..4072369
-Fast-forward
-README.md | 4 ++++
-utils.js | 1 +
-2 files changed, 5 insertions(+)
-create mode 100644 utils.js
+<br/>remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+<br/>Unpacking objects: 100% (5/5), 1.34 KiB | 0 bytes/s, done.
+<br/>From https://github.com/siomarapantarotto/git-prompts
+<br/>e9c8282..4072369 main -> origin/main
+<br/>Updating e9c8282..4072369
+<br/>Fast-forward
+<br/>README.md | 4 ++++
+<br/>utils.js | 1 +
+<br/>2 files changed, 5 insertions(+)
+<br/>create mode 100644 utils.js
 
-User@HOST ~ /desktop/git-prompts (main)
-$ git log --oneline
-4072369 (HEAD -> main, origin/main) Merge pull request #1 from siomarapantarotto/feature-a
-c92dd30 Update README.md
-e9c8282 Update README.md
-f12e7b2 Update README.md
-27fdd14 Update README.md
-5351fe1 (origin/feature-a, feature-a) utils.js with TODO
-69993f9 added package main
-c62e7b2 Create README.md
-3982a93 added empty main function
-35376fe added console.log()
-742015e added body{}
-0591c35 fictitious bootstrap project
-a3e89fa added console.log()
-856c93c initial commit after clone issue during push to GitHub
+<br/>User@HOST ~ /desktop/git-prompts (main)
+<br/>$ git log --oneline
+<br/>4072369 (HEAD -> main, origin/main) Merge pull request #1 from siomarapantarotto/feature-a
+<br/>c92dd30 Update README.md
+<br/>e9c8282 Update README.md
+<br/>f12e7b2 Update README.md
+<br/>27fdd14 Update README.md
+<br/>5351fe1 (origin/feature-a, feature-a) utils.js with TODO
+<br/>69993f9 added package main
+<br/>c62e7b2 Create README.md
+<br/>3982a93 added empty main function
+<br/>35376fe added console.log()
+<br/>742015e added body{}
+<br/>0591c35 fictitious bootstrap project
+<br/>a3e89fa added console.log()
+<br/>856c93c initial commit after clone issue during push to GitHub
 
-User@HOST ~ /desktop/git-prompts (main)
-$ git branch -d feature-a
-Deleted branch feature-a (was 5351fe1).
+<br/>User@HOST ~ /desktop/git-prompts (main)
+<br/>$ git branch -d feature-a
+<br/>Deleted branch feature-a (was 5351fe1).
 
-User@HOST ~ /desktop/git-prompts (main)
-$ git branch -a
+<br/>User@HOST ~ /desktop/git-prompts (main)
+<br/>$ git branch -a
 
-- main
-remotes/origin/feature-a
-remotes/origin/main
+<br/>- main
+<br/>remotes/origin/feature-a
+<br/>remotes/origin/main
 </p>
 
 ## The General Workflow
