@@ -381,7 +381,123 @@ User@HOST MINGW64 /desktop/git-memos (master)
 
 ## Git Pull
 
-<p>TODO</p>
+<p>
+Created README.md from GitHub.
+</p>
+
+<p>
+User@HOST ~ /desktop/git-prompts (main)
+$ git log
+commit 3982a93b6679d59530752e4774a087cb4814e381 (HEAD -> main, origin/main)
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 20:22:05 2021 -0300
+
+    added empty main function
+</p>
+
+<p>
+commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 19:54:52 2021 -0300
+
+    added body{}
+</p>
+
+<p>
+commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 19:54:52 2021 -0300
+
+    added body{}
+</p>
+
+<p>
+commit 0591c35fd2e3135eb54aa78b9197a36a24632179
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 19:11:24 2021 -0300
+
+    fictitious bootstrap project
+</p>
+
+<p>commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 19:00:14 2021 -0300
+
+    added console.log()
+</p>
+
+<p>commit 856c93cbfe8e3865e49fee7af5626336bc975d04
+Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
+Date:   Sat Sep 25 16:34:31 2021 -0300
+
+    initial commit after clone issue during push to GitHub
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ ls
+index.html  index.js  main.css  main.go  test/
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 832 bytes | 5.00 KiB/s, done.
+From https://github.com/siomarapantarotto/git-prompts
+   3982a93..c62e7b2  main       -> origin/main
+Updating 3982a93..c62e7b2
+Fast-forward
+ README.md | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ create mode 100644 README.md
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ ls
+README.md  index.html  index.js  main.css  main.go  test/
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$
+
+Changing file content from GitHub
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ cat main.go
+func main() {
+}
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 661 bytes | 2.00 KiB/s, done.
+From https://github.com/siomarapantarotto/git-prompts
+   c62e7b2..69993f9  main       -> origin/main
+Updating c62e7b2..69993f9
+Fast-forward
+ main.go | 2 ++
+ 1 file changed, 2 insertions(+)
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$ cat main.go
+package main
+
+func main() {
+}
+</p>
+
+<p>User@HOST ~ /desktop/git-prompts (main)
+$
+</p>
+
 
 ## Understanding Branches
 
@@ -443,9 +559,7 @@ User@HOST MINGW64 /desktop/git-memos (master)
   <br />Untracked files:
   <br />  (use "git add <file>..." to include in what will be committed)
   <br />        utils.js
-
-nothing added to commit but untracked files present (use "git add" to track)
-
+  <br />nothing added to commit but untracked files present (use "git add" to track)
 </p>
 <p>
   <br />User@HOST ~ /desktop/git-prompts (feature-a)
