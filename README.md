@@ -124,23 +124,21 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
 
 ## Verify installation
 
-  <p>
-  <mark>$ git --version</mark>
-  git version 2.33.0.windows.1
-  </p>
+  <p>$ git --version</p>
+  <br />git version 2.33.0.windows.1
+  
 
 ## Check Git help
 
-<p><mark>$ git help</mark></p>
+<p>$ git help</p>
 
 ## Configure Git
 
-<p>
-  <mark>$ git config --global user.name "Siomara Cintia Pantarotto"</mark><br />
-  <mark>$ git config --global user.email "siomarapantarotto@gmail.com"</mark><br />
-  <mark>$ git config --global color.ui auto</mark><br />
-  <mark>$ git config -l</mark><br />
-</p>
+<p>$ git config --global user.name "Siomara Cintia Pantarotto"</p>
+<br />$ git config --global user.email "siomarapantarotto@gmail.com"
+<br />$ git config --global color.ui auto
+<br />$ git config -l
+
 
 ## Initializing Git repository
 
@@ -153,7 +151,7 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
   $ mkdir git-prompts<br />
   $ cd git-prompts<br />
   $ ls<br />
-  <mark>$ git init .</mark><br />
+  $ git init .<br />
   $ ls -a<br />
   </p>
 
@@ -161,7 +159,7 @@ to those who visit it, it is here that I cashe reminders when I need to use Git 
 
 <p>
   $ ls -a<br />
-  <mark>$ rm -rf .git</mark><br />
+  $ rm -rf .git<br />
   $ ls -a<br />
   $ git add<br />
   fatal: not a git repository (or any of the parent directories): .git<br />
@@ -267,8 +265,6 @@ User@HOST MINGW64 /desktop/git-memos (master)
 
 <br/>body {
 <br/>}
-<br/>~
-<br/>~
 <br/>~
 <br/>~
 <br/>~
