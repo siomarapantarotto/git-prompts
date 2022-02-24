@@ -391,7 +391,6 @@ Created README.md from GitHub.
 <br/>commit 3982a93b6679d59530752e4774a087cb4814e381 (HEAD -> main, origin/main)
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 20:22:05 2021 -0300
-
     <br/>added empty main function
 </p>
 
@@ -399,7 +398,6 @@ Created README.md from GitHub.
 <br/>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:54:52 2021 -0300
-
     <br/>added body{}
 </p>
 
@@ -407,7 +405,6 @@ Created README.md from GitHub.
 <br/>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:54:52 2021 -0300
-
     <br/>added body{}
 </p>
 
@@ -415,21 +412,18 @@ Created README.md from GitHub.
 <br/>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:11:24 2021 -0300
-
     <br/>fictitious bootstrap project
 </p>
 
 <p>commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:00:14 2021 -0300
-
     <br/>added console.log()
 </p>
 
 <p>commit 856c93cbfe8e3865e49fee7af5626336bc975d04
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 16:34:31 2021 -0300
-
     <br/>initial commit after clone issue during push to GitHub
 </p>
 
