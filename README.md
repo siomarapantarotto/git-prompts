@@ -46,8 +46,8 @@
 
 ## General info
 
-This repo was created from scratch with GIT and GITBASH. Eventhough its content may not make much sense
-to those who visit it, it is here that I cashe reminders when I need to use Git via command lines.
+This repo was created from scratch with GIT & GITBASH. Although its content may not make much sense
+to those who visit it, it is here that I have collected reminders for when I need to use GIT via command lines.
 
 ## What is Git in a nutshell
 
