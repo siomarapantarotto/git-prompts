@@ -151,16 +151,16 @@ to those who visit it, it is here that I have collected reminders for when I nee
 </ul>
 </p>
 
-List config values (initial values)
+<b>List initial config values</b>
 <p>$ git config -l (or $ git config --list)</p>
 
-Set config values
+<b>Set config values</b>
 <p>$ git config --global user.name "Siomara Cintia Pantarotto"
 <br />$ git config --global user.email "siomarapantarotto@gmail.com"
 <br />$ git config --global color.ui auto
 </p>
 
-List config values (final values)
+<b>List final config values</b>
 <p>$ git config -l (or $ git config --list)</p>
 
 ## Initializing Git repository
