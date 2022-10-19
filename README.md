@@ -135,14 +135,14 @@ to those who visit it, it is here that I have collected reminders for when I nee
 
 ## Configure Git
 
-<p>$ git config -l</p>
+<p>$ git config -l (or $ git config -list)</p>
 
 <p>$ git config --global user.name "Siomara Cintia Pantarotto"
 <br />$ git config --global user.email "siomarapantarotto@gmail.com"
 <br />$ git config --global color.ui auto
 </p>
 
-<p>$ git config -l</p>
+<p>$ git config -l (or $ git config -list)</p>
 
 ## Initializing Git repository
 
