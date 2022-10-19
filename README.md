@@ -140,8 +140,9 @@ to those who visit it, it is here that I have collected reminders for when I nee
 <p>$ git config --global user.name "Siomara Cintia Pantarotto"
 <br />$ git config --global user.email "siomarapantarotto@gmail.com"
 <br />$ git config --global color.ui auto
-<br />$ git config -l
 </p>
+
+<p>$ git config -l</p>
 
 ## Initializing Git repository
 
