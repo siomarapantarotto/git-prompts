@@ -207,7 +207,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 
 <p>
   <p>A commit is basically a safe point.</p>
-  <br />$ git status
+  $ git status<br />
   <br />On branch master
   <br />No commits yet
   <br />Changes to be committed:
