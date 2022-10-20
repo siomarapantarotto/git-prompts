@@ -499,55 +499,54 @@ Created README.md from GitHub.
 
 ## Working with Branches
 
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch
   <br />* main
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch -r
   <br />origin/main
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch -a
   <br />* main
   <br />remotes/origin/main
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch feature-a
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch -a
   <br />feature-a
   <br />* main
   <br />remotes/origin/main
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git checkout feature-a
   <br />Switched to branch 'feature-a'
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git checkout -
   <br />Switched to branch 'main'
   <br />Your branch is up to date with 'origin/main'.
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git checkout -
   <br />Switched to branch 'feature-a'
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ vi utils.js
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git status
   <br />On branch feature-a
   <br />Untracked files:
@@ -555,211 +554,209 @@ Created README.md from GitHub.
   <br />        utils.js
   <br />nothing added to commit but untracked files present (use "git add" to track)
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git add .
   <br />warning: LF will be replaced by CRLF in utils.js.
   <br />The file will have its original line endings in your working directory
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git commit -m "utils.js with TODO"
   <br />[feature-a 5351fe1] utils.js with TODO
   <br /> 1 file changed, 1 insertion(+)
   <br /> create mode 100644 utils.js
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git log
   <br />commit 5351fe1e0fa270d76381ea2963cc11dd8259738c (HEAD -> feature-a)
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 22:34:06 2021 -0300
-    <br />utils.js with TODO
+  <br />utils.js with TODO
 </p>
-<p>
-  <br />commit 69993f9167e3a2310dcf896d3eb4b2c5c35a9d53 (origin/main, main)
+
+<p>commit 69993f9167e3a2310dcf896d3eb4b2c5c35a9d53 (origin/main, main)
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 22:05:15 2021 -0300
-    <br />added package main
+  <br />added package main
 </p>
-<p>
-  <br />commit c62e7b2389778f394396c1f14239e9d1eea130e5
+
+<p>commit c62e7b2389778f394396c1f14239e9d1eea130e5
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:52:21 2021 -0300
-    <br />Create README.md
+  <br />Create README.md
 </p>
-<p>
-  <br />commit 3982a93b6679d59530752e4774a087cb4814e381
+
+<p>commit 3982a93b6679d59530752e4774a087cb4814e381
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:22:05 2021 -0300
-    <br />added empty main function
+  <br />added empty main function
 </p>
-<p>
-  <br />commit 35376feebc50b13070a9e99860ba5d7241064805
+
+<p>commit 35376feebc50b13070a9e99860ba5d7241064805
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:02:40 2021 -0300
-    <br />added console.log()
-
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+
+<p>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:54:52 2021 -0300
-    <br />added body{}
+  <br />added body{}
 </p>
-<p>
-  <br />commit 0591c35fd2e3135eb54aa78b9197a36a24632179
+
+<p>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:11:24 2021 -0300
-    <br />fictitious bootstrap project
+  <br />fictitious bootstrap project
 </p>
-<p>
-  <br />commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
+
+<p>commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:00:14 2021 -0300
-    <br />added console.log()
-
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 856c93cbfe8e3865e49fee7af5626336bc975d04
+
+<p>commit 856c93cbfe8e3865e49fee7af5626336bc975d04
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 16:34:31 2021 -0300
-    <br />initial commit after clone issue during push to GitHub
+  <br />initial commit after clone issue during push to GitHub
 
 (END)
 
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ ls
   <br />README.md  index.html  index.js  main.css  main.go  test/  utils.js
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git log
   <br />commit 5351fe1e0fa270d76381ea2963cc11dd8259738c (HEAD -> feature-a)
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 22:34:06 2021 -0300
-    <br />utils.js with TODO
+  <br />utils.js with TODO
 </p>
-<p>
-  <br />commit 69993f9167e3a2310dcf896d3eb4b2c5c35a9d53 (origin/main, main)
+
+<p>commit 69993f9167e3a2310dcf896d3eb4b2c5c35a9d53 (origin/main, main)
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 22:05:15 2021 -0300
-    <br />added package main
+  <br />added package main
 </p>
-<p>
-  <br />commit c62e7b2389778f394396c1f14239e9d1eea130e5
+
+<p>commit c62e7b2389778f394396c1f14239e9d1eea130e5
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:52:21 2021 -0300
-    <br />Create README.md
+  <br />Create README.md
 </p>
-<p>
-  <br />commit 3982a93b6679d59530752e4774a087cb4814e381
+
+<p>commit 3982a93b6679d59530752e4774a087cb4814e381
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:22:05 2021 -0300
-    <br />added empty main function
+  <br />added empty main function
 </p>
-<p>
-  <br />commit 35376feebc50b13070a9e99860ba5d7241064805
+
+<p>commit 35376feebc50b13070a9e99860ba5d7241064805
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:02:40 2021 -0300
-    <br />added console.log()
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+
+<p>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:54:52 2021 -0300
-    <br />added body{}
+  <br />added body{}
 </p>
-<p>
-  <br />commit 0591c35fd2e3135eb54aa78b9197a36a24632179
+
+<p>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:11:24 2021 -0300
-    <br />fictitious bootstrap project
+  <br />fictitious bootstrap project
 </p>
-<p>
-  <br />commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
+
+<p>commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:00:14 2021 -0300
-    <br />added console.log()
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 856c93cbfe8e3865e49fee7af5626336bc975d04
+
+<p>commit 856c93cbfe8e3865e49fee7af5626336bc975d04
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 16:34:31 2021 -0300
-    <br />initial commit after clone issue during push to GitHub
+  <br />initial commit after clone issue during push to GitHub
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git checkout main
   <br />Switched to branch 'main'
   <br />Your branch is up to date with 'origin/main'.
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git log
   <br />commit 69993f9167e3a2310dcf896d3eb4b2c5c35a9d53 (HEAD -> main, origin/main)
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 22:05:15 2021 -0300
-    <br />added package main
+  <br />added package main
 </p>
-<p>
-  <br />commit c62e7b2389778f394396c1f14239e9d1eea130e5
+
+<p>commit c62e7b2389778f394396c1f14239e9d1eea130e5
   <br />Author: Siomara Pantarotto <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:52:21 2021 -0300
-    <br />Create README.md
+  <br />Create README.md
 </p>
-<p>
-  <br />commit 3982a93b6679d59530752e4774a087cb4814e381
+
+<p>commit 3982a93b6679d59530752e4774a087cb4814e381
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:22:05 2021 -0300
-    <br />added empty main function
+  <br />added empty main function
 </p>
-<p>
-  <br />commit 35376feebc50b13070a9e99860ba5d7241064805
+
+<p>commit 35376feebc50b13070a9e99860ba5d7241064805
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 20:02:40 2021 -0300
-    <br />added console.log()
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+
+<p>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:54:52 2021 -0300
-    <br />added body{}
+  <br />added body{}
 </p>
-<p>
-  <br />commit 0591c35fd2e3135eb54aa78b9197a36a24632179
+
+<p>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:11:24 2021 -0300
-    <br />fictitious bootstrap project
+  <br />fictitious bootstrap project
 </p>
-<p>
-  <br />commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
+
+<p>commit a3e89fa4de80cb3792f18483d75e8861d4bd4203
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 19:00:14 2021 -0300
-    <br />added console.log()
+  <br />added console.log()
 </p>
-<p>
-  <br />commit 856c93cbfe8e3865e49fee7af5626336bc975d04
+
+<p>commit 856c93cbfe8e3865e49fee7af5626336bc975d04
   <br />Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
   <br />Date:   Sat Sep 25 16:34:31 2021 -0300
-    <br />initial commit after clone issue during push to GitHub
+  <br />initial commit after clone issue during push to GitHub
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git checkout feature-a
   <br />Switched to branch 'feature-a'
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git push
   <br />fatal: The current branch feature-a has no upstream branch.
   <br />To push the current branch and set the remote as upstream, use
-    <br />git push --set-upstream origin feature-a
+  <br />git push --set-upstream origin feature-a
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git push -u origin feature-a
   <br />Enumerating objects: 4, done.
   <br />Counting objects: 100% (4/4), done.
@@ -776,19 +773,19 @@ Created README.md from GitHub.
   <br />* [new branch]      feature-a -> feature-a
   <br />Branch 'feature-a' set up to track remote branch 'feature-a' from 'origin'.
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (feature-a)
+
+<p>User@HOST ~ /desktop/git-prompts (feature-a)
   <br />$ git checkout main
   <br />Switched to branch 'main'
   <br />Your branch is up to date with 'origin/main'.
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git checkout -b to-delete
   <br />Switched to a new branch 'to-delete'
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (to-delete)
+
+<p>User@HOST ~ /desktop/git-prompts (to-delete)
   <br />$ git branch -a
   <br />  feature-a
   <br />  main
@@ -796,19 +793,19 @@ Created README.md from GitHub.
   <br />  remotes/origin/feature-a
   <br />  remotes/origin/main
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (to-delete)
+
+<p>User@HOST ~ /desktop/git-prompts (to-delete)
   <br />$ git checkout -
   <br />Switched to branch 'main'
   <br />Your branch is up to date with 'origin/main'.
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch -d to-delete
   <br />Deleted branch to-delete (was 69993f9).
 </p>
-<p>
-  <br />User@HOST ~ /desktop/git-prompts (main)
+
+<p>User@HOST ~ /desktop/git-prompts (main)
   <br />$
 </p>
 
