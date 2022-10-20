@@ -208,14 +208,14 @@ to those who visit it, it is here that I have collected reminders for when I nee
 <p>
   <p>A commit is basically a safe point.</p>
   $ git status<br />
-  <br />On branch master
-  <br />No commits yet
-  <br />Changes to be committed:
-  <br />(use "git rm --cached <file>..." to unstage)
-  <br />  new file: ../index.html
-  <br />  new file: ../index.js
-  <br />  new file: ../main.css
-  <br />  new file: test.js
+  On branch master<br />
+  No commits yet<br />
+  Changes to be committed:<br />
+  (use "git rm --cached <file>..." to unstage)<br />
+    new file: ../index.html<br />
+    new file: ../index.js<br />
+    new file: ../main.css<br />
+    new file: test.js<br />
 </p>
 
 <p>$ cd ..
