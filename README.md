@@ -162,7 +162,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   $ ls<br />
   $ git init .<br />
   $ ls -a<br />
-  </p>
+</p>
 
 ## Removing Git repository
 
@@ -205,7 +205,8 @@ to those who visit it, it is here that I have collected reminders for when I nee
 
 ## Commits
 
-<p>A commit is basically a safe point.
+<p>
+  <p>A commit is basically a safe point.</p>
   <br />$ git status
   <br />On branch master
   <br />No commits yet
