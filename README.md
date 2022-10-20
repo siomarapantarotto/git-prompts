@@ -137,7 +137,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 <p>
 <ul>
   <li><b>List initial config values</b></li>
-  <p>$ git config -l (or $ git config --list)</p>
+  $ git config -l (or $ git config --list)
 
   <li><b>Set config values</b></li>
   <p>$ git config --global user.name "Siomara Cintia Pantarotto"
