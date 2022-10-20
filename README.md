@@ -389,8 +389,7 @@ User@HOST MINGW64 /desktop/git-memos (master)
 Created README.md from GitHub.
 </p>
 
-<p>
-<br/>User@HOST ~ /desktop/git-prompts (main)
+<p>User@HOST ~ /desktop/git-prompts (main)
 <br/>$ git log
 <br/>commit 3982a93b6679d59530752e4774a087cb4814e381 (HEAD -> main, origin/main)
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
@@ -398,22 +397,19 @@ Created README.md from GitHub.
     <br/>added empty main function
 </p>
 
-<p>
-<br/>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+<p>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:54:52 2021 -0300
     <br/>added body{}
 </p>
 
-<p>
-<br/>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
+<p>commit 742015e4385a3fd63a0a476d63e33c08e5a8e5be
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:54:52 2021 -0300
     <br/>added body{}
 </p>
 
-<p>
-<br/>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
+<p>commit 0591c35fd2e3135eb54aa78b9197a36a24632179
 <br/>Author: SIOMARA CINTIA PANTAROTTO <siomarapantarotto@gmail.com>
 <br/>Date:   Sat Sep 25 19:11:24 2021 -0300
     <br/>fictitious bootstrap project
