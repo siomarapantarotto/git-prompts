@@ -155,7 +155,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 <p>
   <p>Initializing with <b>git init .</b> is just for brand new projects, not existing ones.</p>
   <p>The <b>dot (.)</b> stands for the current directory.</p>
-  $ ls
+  $ ls<br />
   $ cd desktop<br />
   $ ls<br />
   $ mkdir git-prompts<br />
