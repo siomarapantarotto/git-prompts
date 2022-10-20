@@ -137,15 +137,15 @@ to those who visit it, it is here that I have collected reminders for when I nee
 <p>
 <ul>
   <li><b>List initial config values</b></li>
-  <p>$ git config -l (or $ git config --list)</p>
 </ul>
+  <p>$ git config -l (or $ git config --list)</p>
 <ul>
   <li><b>Set config values</b></li>
+</ul>
   <p>$ git config --global user.name "Siomara Cintia Pantarotto"
   <br />$ git config --global user.email "siomarapantarotto@gmail.com"
   <br />$ git config --global color.ui auto
   </p>
-</ul>
 <ul>
   <li><b>List final config values</b></li>
   <p>$ git config -l (or $ git config --list)</p>  
