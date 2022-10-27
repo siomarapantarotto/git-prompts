@@ -125,7 +125,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 
 <p>
   $ git --version
-  <br />git version 2.33.0.windows.1
+  <br />git version 2.38.1.windows.1
 </p>
 
 
