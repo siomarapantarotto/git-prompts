@@ -136,16 +136,16 @@ to those who visit it, it is here that I have collected reminders for when I nee
 # Configure Git
 
 <p>
-  <i><b>List initial config values</b></i>
+  <h3><i><b>List initial config values</b></i></h3>
   <p>$ git config -l (or $ git config --list)</p>
 
-  <i><b>Set config values</b></i>
+  <h3><i><b>Set config values</b></i></h3>
   <p>$ git config --global user.name "Siomara Cintia Pantarotto"
   <br />$ git config --global user.email "siomarapantarotto@gmail.com"
   <br />$ git config --global color.ui auto
   </p>
 
-  <i><b>List final config values</b></i>
+  <h3><i><b>List final config values</b></i></h3>
   <p>$ git config -l (or $ git config --list)</p>
 </p>
 
