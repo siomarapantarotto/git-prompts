@@ -12,7 +12,7 @@
 
 # Welcome to my GIT reminders collection!
 
-## Table of contents
+# Table of contents
   - [General info](#general-info)
   - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
   - [How Git works](#how-git-works)
@@ -44,12 +44,12 @@
   - [Git clients](#git-clients)
   - [Thanks and how to contribute](#thanks-and-how-to-contribute)
 
-## General info
+# General info
 
 This repo was created from scratch with GIT & GITBASH. Although its content may not make much sense
 to those who visit it, it is here that I have collected reminders for when I need to use GIT via command lines.
 
-## What is Git in a nutshell
+# What is Git in a nutshell
 
 <p>
 <ul>
@@ -67,7 +67,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 </ul>
 </p>
 
-## How Git works
+# How Git works
 
 <p>
 <ul>
@@ -89,7 +89,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 </ul>
 </p>
 
-## Git Tutorial and Guide
+# Git Tutorial and Guide
 
 <p>
   <a href="https://git-scm.com/docs/gittutorial"><img alt="">Tutorial</a>
@@ -100,7 +100,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   (https://github.com/git-guides/)
 </p>
 
-## Installing Git
+# Installing Git
 
 <p>
   <ul>
@@ -121,7 +121,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   </ul>
 </p>
 
-## Verify installation
+# Verify installation
 
 <p>
   $ git --version
@@ -129,11 +129,11 @@ to those who visit it, it is here that I have collected reminders for when I nee
 </p>
 
 
-## Check Git help
+# Check Git help
 
 <p>$ git help</p>
 
-## Configure Git
+# Configure Git
 
 <p>
   <i><b>List initial config values</b></i>
@@ -149,7 +149,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   <p>$ git config -l (or $ git config --list)</p>
 </p>
 
-## Initializing Git repository
+# Initializing Git repository
 
 <p>
   <p>Initializing with <b>git init .</b> is just for brand new projects, not existing ones.</p>
@@ -164,7 +164,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   $ ls -a<br />
 </p>
 
-## Removing Git repository
+# Removing Git repository
 
 <p>
   $ ls -a<br />
@@ -176,7 +176,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
   Initialized empty Git repository in D:/Users/Sioma/OneDrive/Área de Trabalho/git-memos/.git/
 </p>
 
-## Git add
+# Git add
 
 <p>$ git add
   <br />Nothing specified, nothing added.
@@ -203,7 +203,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
     <br />   main.css
 </p>
 
-## Commits
+# Commits
 
 <p>
   <p>A commit is basically a safe point.</p>
@@ -259,7 +259,7 @@ i for insert and type:
 
 </p>
 
-## Amend commit messages
+# Amend commit messages
 
 <p>
 User@HOST MINGW64 /desktop/git-memos (master)
@@ -350,11 +350,11 @@ User@HOST MINGW64 /desktop/git-memos (master)
 
 </p>
 
-## Git and Github
+# Git and Github
 
 <p>TODO</p>
 
-## Create a GitHub repo
+# Create a GitHub repo
 
 <p>
 <h2>…or create a new repository on the command line</h2>
@@ -375,15 +375,15 @@ User@HOST MINGW64 /desktop/git-memos (master)
 <br/>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 </p>
 
-## SSH Keys Setup
+# SSH Keys Setup
 
 <p>TODO</p>
 
-## Git Push
+# Git Push
 
 <p>TODO</p>
 
-## Git Pull
+# Git Pull
 
 <p>
 Created README.md from GitHub.
@@ -493,11 +493,11 @@ Created README.md from GitHub.
 </p>
 
 
-## Understanding Branches
+# Understanding Branches
 
 <p>TODO</p>
 
-## Working with Branches
+# Working with Branches
 
 <p>User@HOST ~ /desktop/git-prompts (main)
   <br />$ git branch
@@ -809,15 +809,15 @@ Created README.md from GitHub.
   <br />$
 </p>
 
-## Main and Master are the same
+# Main and Master are the same
 
 <p>TODO</p>
 
-## Pull Requests
+# Pull Requests
 
 <p>TODO</p>
 
-## Merging and Pull Requests
+# Merging and Pull Requests
 
 <p>
 <br />User@HOST ~ /desktop/git-prompts (main)
@@ -884,7 +884,7 @@ Created README.md from GitHub.
 
 </p>
 
-## The General Workflow
+# The General Workflow
 
 <p>TODO</p>
 
@@ -892,23 +892,23 @@ Created README.md from GitHub.
 
 <p>TODO</p>
 
-## Merging Conflicts
+# Merging Conflicts
 
 <p>TODO</p>
 
-## Rebase
+# Rebase
 
 <p>TODO</p>
 
-## Rebase recap
+# Rebase recap
 
 <p>TODO</p>
 
-## Git clients
+# Git clients
 
 <p>TODO</p>
 
-## Thanks and how to contribute
+# Thanks and how to contribute
 
 Thanks for viewing this repo! Contributions are more than welcome.
 
