@@ -13,36 +13,39 @@
 # Welcome to my GIT reminders collection!
 
 # Table of contents
-  - [General info](#general-info)
-  - [What is Git in a nutshell](#what-is-git-in-a-nutshell)
-  - [How Git works](#how-git-works)
-  - [Git Tutorial and Guide](#git-tutorial-and-guide)
-  - [Installing Git](#installing-git)
-  - [Verify installation](#verify-installation)
-  - [Check Git help](#check-git-help)
-  - [Configure Git](#configure-git)
-  - [Initializing Git repository](#initializing-git-repository)
-  - [Removing Git repository](#removing-git-repository)
-  - [Git add](#git-add)
-  - [Commits](#commits)
-  - [Amend commit messages](#amend-commit-messages)
-  - [Git and Github](#git-and-github)
-  - [Create a GitHub repo](#create-a-github-repo)
-  - [SSH Keys Setup](#ssh-keys-setup)
-  - [Git Push](#git-push)
-  - [Git Pull](#git-pull)
-  - [Understanding Branches](#understanding-branches)
-  - [Working with Branches](#working-with-branches)
-  - [Main and Master are the same](#main-and-master-are-the-same)
-  - [Pull Requests](#pull-requests)
-  - [Merging and Pull Requests](#merging-and-pull-requests)
-  - [The General Workflow](#the-general-workflow)
+- [Welcome to my GIT reminders collection!](#welcome-to-my-git-reminders-collection)
+- [Table of contents](#table-of-contents)
+- [General info](#general-info)
+- [What is Git in a nutshell](#what-is-git-in-a-nutshell)
+- [How Git works](#how-git-works)
+- [Git Tutorial and Guide](#git-tutorial-and-guide)
+- [Installing Git](#installing-git)
+- [Verify installation](#verify-installation)
+- [Check Git help](#check-git-help)
+- [Configure Git](#configure-git)
+- [Initializing Git repository](#initializing-git-repository)
+- [Removing Git repository](#removing-git-repository)
+- [Git add](#git-add)
+- [Commits](#commits)
+- [Amend commit messages](#amend-commit-messages)
+- [Git and Github](#git-and-github)
+- [Create a GitHub repo](#create-a-github-repo)
+- [Clone a GitHub repo to the local machine](#clone-a-github-repo-to-the-local-machine)
+- [SSH Keys Setup](#ssh-keys-setup)
+- [Git Push](#git-push)
+- [Git Pull](#git-pull)
+- [Understanding Branches](#understanding-branches)
+- [Working with Branches](#working-with-branches)
+- [Main and Master are the same](#main-and-master-are-the-same)
+- [Pull Requests](#pull-requests)
+- [Merging and Pull Requests](#merging-and-pull-requests)
+- [The General Workflow](#the-general-workflow)
   - [Conflicts](#conflicts)
-  - [Merging Conflicts](#merging-conflicts)
-  - [Rebase](#rebase)
-  - [Rebase recap](#rebase-recap)
-  - [Git clients](#git-clients)
-  - [Thanks and how to contribute](#thanks-and-how-to-contribute)
+- [Merging Conflicts](#merging-conflicts)
+- [Rebase](#rebase)
+- [Rebase recap](#rebase-recap)
+- [Git clients](#git-clients)
+- [Thanks and how to contribute](#thanks-and-how-to-contribute)
 
 # General info
 
@@ -373,6 +376,29 @@ User@HOST MINGW64 /desktop/git-memos (master)
 
 <h2>…or import code from another repository</h2>
 <br/>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+</p>
+
+# Clone a GitHub repo to the local machine
+
+<p>Created a Github repo on GitHub with a README.md file only.
+
+<br/>cd to the workspace that the repo will be cloned
+<br/>Sioma@DELL MINGW64 /d/workspace_nodejs
+<br/>$ ls
+<br/>nodejs-playground/  
+
+<br/>Sioma@DELL MINGW64 /d/workspace_nodejs
+<br/>$ git clone https://github.com/siomarapantarotto/nodejs-mongodb-blog.git        
+<br/>Cloning into 'nodejs-mongodb-blog'...
+<br/>remote: Enumerating objects: 3, done.
+<br/>remote: Counting objects: 100% (3/3), done.
+<br/>remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+<br/>Receiving objects: 100% (3/3), done.
+
+<br/>Sioma@DELL MINGW64 /d/workspace_nodejs
+<br/>$ ls
+<br/>nodejs-mongodb-blog/  nodejs-playground/
+
 </p>
 
 # SSH Keys Setup
