@@ -156,7 +156,7 @@ to those who visit it, it is here that I have collected reminders for when I nee
 
   <h3><i><b>Exit the (END) prompt in the terminal</b></i></h3>
   <p>
-    To exit the (END) prompt in the terminal, which is typically seen when using a pager like less or more in Unix-based systems, you should press q. This should return you to your normal command prompt.
+    To exit the (END) prompt in the terminal, which is typically seen when using a pager like less or more in Unix or Windows based systems, you should press <b>q</b>. This should return you to your normal command prompt.
   </p>
 </p>
 
